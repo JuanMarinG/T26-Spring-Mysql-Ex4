@@ -12,9 +12,9 @@ public interface IEquiposService {
 	//CREATE
 	public Equipos guardarEquipos (Equipos equipos);
 	//READ
-	public Equipos equiposPorId(String id);
+	public Equipos equiposPorId(int id);
 	//UPDATE
 	public Equipos actualizarEquipos(Equipos equipos);
 	//DELETE
-	public void eliminarEquipos (String id);
+	public void eliminarEquipos (int id);
 }
